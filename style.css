@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  color: black;
+}
+header {
+  height: 101px;
+  border-bottom: 1px solid grey;
+  z-index: 10;
+  position: relative;
+}
+.header-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  width: 51px;
+  height: 51px;
+}
+.logo img {
+  height: 100%;
+}
+.left-nav {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  align-items: center;
+}
+
+.left-nav nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+.left-nav nav ul li {
+  text-transform: uppercase;
+  padding-left: 24px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+.left-nav nav ul li:hover {
+  color: rgb(65, 165, 65);
+}
+.right-nav {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.find-store {
+  padding: 30px;
+}
+.find-store span {
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a:link,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+.find-store:hover {
+  color: green;
+}
+.find-store,
+.sign-in,
+.join-now {
+  padding-left: 24px;
+}
+.sign-in button {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50px;
+  padding: 7px 16px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.join-now button {
+  background-color: black;
+  color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50px;
+  padding: 7px 16px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+button:hover {
+  background-color: green;
+}
